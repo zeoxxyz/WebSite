@@ -10,7 +10,7 @@ import { onAuthStateChanged, type User } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 
 // User: replace this with your Google reCAPTCHA v3 site key.
-const RECAPTCHA_V3_SITE_KEY = "6LeXlVwtAAAAAP5zlYYAC1aWEO5B0VlwdRRfBWt8";
+const RECAPTCHA_V3_SITE_KEY = "6LdC3lwtAAAAAG5yYlc9DGb852Dy-K08CZymu7PM";
 const API_BASE = "https://api.zeox.xyz";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
