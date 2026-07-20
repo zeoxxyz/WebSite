@@ -12,7 +12,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 // Google's free test keys — work on any domain for development.
 // For production: register your domain at https://www.google.com/recaptcha/admin (free)
 // then replace this with your real Site Key.
-const RECAPTCHA_SITE_KEY = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+const RECAPTCHA_SITE_KEY = "6LdC3lwtAAAAAG5yYlc9DGb852Dy-K08CZymu7PM";
 
 export const Route = createFileRoute("/auth")({
   head: () => ({
